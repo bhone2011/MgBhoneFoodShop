@@ -1,0 +1,53 @@
+body{
+    background-image: url(image/download.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(110, 111, 111);
+    color: rgb(148, 192, 236);
+    font-style: italic;
+}
+h2{
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(110, 111, 111);
+    color: rgb(251, 255, 26);
+    font-style: italic;
+}
+.sign input{
+    background-color: bisque;
+    font-style: italic;
+    font-weight: 100;
+    color: rgb(60, 60, 60);
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 10px;
+    padding: 5px;
+}
+.sign .id{
+    padding: 6px;
+   cursor: pointer;
+}
+.sign{
+    backdrop-filter: blur(10px);
+    width: 200px;
+    height: 280px;
+    padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+.sign input:hover{
+    background-color: rgb(231, 166, 86);
+    color: rgb(192, 189, 189);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: 100;
+    text-shadow: 2px 2px 2px rgb(110, 111, 111);
+}
